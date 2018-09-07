@@ -1,6 +1,7 @@
 const common = require('./webpack.common.js');
 
 const merge = require('webpack-merge');
+const path = require('path');
 
 module.exports = merge(common, {
   mode: 'development',
@@ -9,6 +10,7 @@ module.exports = merge(common, {
     rules: [
       {
         test: /\.(sc|c)ss$/,
+        include: path.resolve(__dirname, '../../src'),
         use: [
           {
             loader: 'style-loader'
