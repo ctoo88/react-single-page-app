@@ -10,9 +10,10 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.(sc|c)ss$/,
-        use: [MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader'],
-      },
+        test: /\.js[x]?$/,
+        include: path.resolve(__dirname, '../../src'),
+        loader: 'babel-loader',
+      }
     ]
   },
   plugins: [
