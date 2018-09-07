@@ -19,6 +19,6 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, '../index.tpl.html'),
       hash: true,
-    }),
+    })
   ],
 };
