@@ -1,7 +1,31 @@
-@import './common.scss';
+@import './common.css';
 
 .app {
   text-align: center;
+}
+
+.about {
+  @extend .app;
+}
+
+.animated {
+  animation-duration: .3s;
+}
+
+.slideInRight {
+  animation-name: slideInRight;
+}
+
+@keyframes slideInRight {
+
+  from {
+    transform: translate3d(10%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
 }
 
 .app-logo {
