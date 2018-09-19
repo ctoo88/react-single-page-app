@@ -1,0 +1,45 @@
+.home {
+  .banner {
+    text-align: center;
+    background-color: #222;
+    height: 150px;
+    padding: 20px;
+    color: white;
+
+    .logo {
+      height: 80px;
+      background: url('../img/logo.svg') no-repeat 50%;
+      animation: app-logo-spin infinite 20s linear;
+    }
+    @keyframes app-logo-spin {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+  }
+  .block-content {
+    padding: 16px;
+    line-height: 1.5;
+    border-bottom: .5px solid #ddd;
+    font-size: 14px;
+    color: #212121;
+  }
+  .block-title {
+    color: rgba(0,0,0,.54);
+    padding: 32px 16px 16px;
+    line-height: 16px;
+    font-weight: 500;
+    font-size: 14px;
+  }
+  .list-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    border-top: .5px solid #ddd;
+    border-bottom: .5px solid #ddd;
+    color: #000;
+  }
+}

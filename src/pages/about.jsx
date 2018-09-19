@@ -1,11 +1,10 @@
-import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import React from 'react';
 
 const About = () => (
   <div className="about animated slideInRight">
     <div className="nav-bar">
-      <div className="left" onClick={() => history.back()}>&lt;</div>
-      <div className="center">About</div>
+      <div className="nav-left" onClick={() => history.back()}>&lt;</div>
+      <div className="nav-center">About</div>
     </div>
 
     <p className="block-title">Simple Cards</p>
