@@ -26,7 +26,7 @@ class Main extends Component {
     let { curTab } = this.state;
 
     return (
-      <div>
+      <div className="main">
         <Home active={curTab === 'home'}/>
         <Notice active={curTab === 'notice'}/>
     
