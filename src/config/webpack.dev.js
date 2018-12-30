@@ -9,7 +9,7 @@ module.exports = merge(common, {
   module: {
     rules: [
       {
-        test: /\.(sc|c)ss$/,
+        test: /\.(css|styl)$/,
         include: path.resolve(__dirname, '../../src'),
         use: [
           {
@@ -22,7 +22,7 @@ module.exports = merge(common, {
             },
           },
           {
-            loader: 'sass-loader',
+            loader: 'stylus-loader',
             options: {
               sourceMap: true
             },

@@ -9,16 +9,16 @@ module.exports = merge(common, {
   module: {
     rules: [
       {
-        test: /\.(sc|c)ss$/,
+        test: /\.(css|styl)$/,
         include: path.resolve(__dirname, '../../src'),
-        use: [MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader'],
+        use: [MiniCssExtractPlugin.loader, 'css-loader', 'stylus-loader'],
       },
       {
         test: /\.(png|svg|jpg|gif)$/,
         loader: 'file-loader',
         options: {
           name: '[hash].[ext]',
-          outputPath: 'images/',
+          outputPath: 'img/',
         },
       },
     ]

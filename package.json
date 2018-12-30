@@ -1,14 +1,10 @@
 {
-  "name": "app-demo",
+  "name": "webpack-app",
   "version": "1.0.0",
-  "description": "webpack & react & f7",
-  "private": true,
-  "author": "",
-  "license": "ISC",
+  "description": "Webpack-base",
   "scripts": {
-    "clean": "rm -rf www",
-    "dev": "node ./src/config/server.js",
-    "prod": "webpack --config ./src/config/webpack.prod.js"
+    "start": "node ./src/config/server.js",
+    "prod": "rm -rf www && webpack --config ./src/config/webpack.prod.js"
   },
   "devDependencies": {
     "css-loader": "^1.0.0",
@@ -16,9 +12,9 @@
     "file-loader": "^2.0.0",
     "html-webpack-plugin": "^3.2.0",
     "mini-css-extract-plugin": "^0.4.2",
-    "node-sass": "^4.9.3",
-    "sass-loader": "^7.1.0",
     "style-loader": "^0.23.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
     "webpack": "^4.17.1",
     "webpack-cli": "^3.1.0",
     "webpack-dev-middleware": "^3.2.0",
