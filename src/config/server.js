@@ -8,7 +8,6 @@ const server = express();
 
 server.use(webpackDevMiddleware(compiler, {
   publicPath: '/',
-  logLevel: 'warn',
 }));
 
 server.listen(8818, () => {

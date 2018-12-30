@@ -21,16 +21,17 @@
   animation-duration: .3s;
 }
 
-.slideInRight {
-  animation-name: slideInRight;
+.slideInBottom {
+  animation-name: slideInBottom;
 }
 
-@keyframes slideInRight {
+@keyframes slideInBottom {
   from {
-    transform: translate3d(10%, 0, 0);
-    visibility: visible;
+    transform: translate3d(0, 8px, 0);
+    opacity: 0;
   }
   to {
     transform: translate3d(0, 0, 0);
+    opacity: 1;
   }
 }

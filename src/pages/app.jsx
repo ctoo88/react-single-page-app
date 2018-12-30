@@ -1,17 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter, Route } from 'react-router-dom';
+import { HashRouter, Route } from 'react-router-dom';
 
-import Main from './main.jsx';
-import About from './about.jsx';
+import Main from './main';
+import About from './about';
 
 const App = () => (
-  <BrowserRouter>
-    <div>
+  <HashRouter>
+    <div className="app">
       <Route exact path="/" component={Main} />
       <Route path="/about" component={About} />
     </div>
-  </BrowserRouter>
+  </HashRouter>
 );
 
 export default App;

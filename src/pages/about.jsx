@@ -1,7 +1,7 @@
 import React from 'react';
 
 const About = () => (
-  <div className="about animated slideInRight">
+  <div className="about animated slideInBottom">
     <div className="nav-bar">
       <div className="nav-left" onClick={() => history.back()}>&lt;</div>
       <div className="nav-center">About</div>

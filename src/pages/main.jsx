@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
-import Home from './home/index.jsx';
-import Notice from './user/notice.jsx';
-import Icon from '../components/icon.jsx';
+import Home from './home/index';
+import Notice from './user/notice';
+import Icon from 'components/icon';
 
 class Main extends Component {
 

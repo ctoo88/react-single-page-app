@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import App from './pages/app.jsx';
+import App from 'pages/app';
 
-import './assets/style/app.scss';
-import './assets/icons.js';
+import 'assets/styles/app';
+import 'assets/icons';
 
 ReactDOM.render(<App />, document.getElementById('root'));
