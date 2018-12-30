@@ -1,7 +1,7 @@
-# web-app-demo
+# React + Webpack
 
-webpack v4.x
+[webpack v4.x](https://webpack.js.org/concepts/)
 
-react v16.x
+[react v16.x](https://reactjs.org/)
 
-cordova v8.x
+[react-router v4.x](https://github.com/ReactTraining/react-router)
