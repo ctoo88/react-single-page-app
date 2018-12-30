@@ -1,7 +1,9 @@
 # React + Webpack
 
-[Webpack v4.x](https://webpack.js.org/concepts/)
+[Webpack](https://webpack.js.org/concepts/) v4.x
 
-[React v16.x](https://reactjs.org/)
+[React](https://reactjs.org/) v16.x
 
-[React-router v4.x](https://github.com/ReactTraining/react-router)
+[React-router](https://github.com/ReactTraining/react-router) v4.x
+
+[Stylus](http://stylus-lang.com/) v0.x
