@@ -1,3 +1,3 @@
 # Webpack-base
 
-[webpack v4.x.x](https://webpack.js.org/concepts/)
+[Webpack v4.x](https://webpack.js.org/concepts/)
